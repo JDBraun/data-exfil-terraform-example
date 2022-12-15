@@ -23,6 +23,11 @@ variable "aws_secret_key" {
   sensitive = true
 }
 
+variable "aws_account_id" {
+  type = string
+}
+
+
 variable "resource_owner" {
   type = string
   sensitive = true

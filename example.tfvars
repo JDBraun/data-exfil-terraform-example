@@ -8,6 +8,7 @@ resource_prefix = "data-exfil-terraform-example"
 // AWS Variables
 aws_access_key = ""
 aws_secret_key = ""
+aws_account_id = ""
 
 // Dataplane Variables
 region = "us-east-1"
